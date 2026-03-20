@@ -14,6 +14,9 @@
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
             app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_WebviewFragment"
+            app:destination="@id/WebviewFragment" />
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
@@ -25,4 +28,9 @@
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/WebviewFragment"
+        android:name="br.com.brd.mywebviewplaygorund.WebviewFragment"
+        android:label="@string/webview_fragment_label"
+        tools:layout="@layout/fragment_webview" />
 </navigation>
