@@ -48,7 +48,6 @@ class WebviewFragment : Fragment() {
             }
             
             settings.javaScriptEnabled = true
-            // Trocado por uma URL com fundo de outra cor para testar o clipping das bordas
             loadUrl("https://www.bing.com")
         }
     }
