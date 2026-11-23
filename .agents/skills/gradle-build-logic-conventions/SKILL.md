@@ -1,6 +1,7 @@
 ---
 name: gradle-build-logic-conventions
-description: Design, audit, refactor, and validate Gradle `build-logic` composite-build convention plugins for multi-module Android, Kotlin, and JVM projects. Enforces modern Gradle 8/9 and AGP 8/9 best practices: `includeBuild`, shared version catalogs, `compileOnly` + `gradle-api`, strict `validatePlugins`, order-independent plugin reactions, modular capability plugins, DSL extensions, Configuration Cache, and Project Isolation readiness.
+description: >-
+  Design, audit, refactor, and validate Gradle `build-logic` composite-build convention plugins for multi-module Android, Kotlin, and JVM projects. Enforces modern Gradle 8/9 and AGP 8/9 best practices: `includeBuild`, shared version catalogs, `compileOnly` + `gradle-api`, strict `validatePlugins`, order-independent plugin reactions, modular capability plugins, DSL extensions, Configuration Cache, and Project Isolation readiness.
 ---
 
 # Gradle `build-logic` Convention Plugins — Best Practices Skill
